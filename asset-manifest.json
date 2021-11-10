@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Yulia2021-dev/-training--repository/static/css/main.ac4cafd9.chunk.css",
+    "main.css": "/Yulia2021-dev/-training--repository/static/css/main.3ed6d5dd.chunk.css",
     "main.js": "/Yulia2021-dev/-training--repository/static/js/main.2506cf01.chunk.js",
     "main.js.map": "/Yulia2021-dev/-training--repository/static/js/main.2506cf01.chunk.js.map",
     "runtime-main.js": "/Yulia2021-dev/-training--repository/static/js/runtime-main.e437d5d4.js",
@@ -8,13 +8,13 @@
     "static/js/2.71c004fd.chunk.js": "/Yulia2021-dev/-training--repository/static/js/2.71c004fd.chunk.js",
     "static/js/2.71c004fd.chunk.js.map": "/Yulia2021-dev/-training--repository/static/js/2.71c004fd.chunk.js.map",
     "index.html": "/Yulia2021-dev/-training--repository/index.html",
-    "static/css/main.ac4cafd9.chunk.css.map": "/Yulia2021-dev/-training--repository/static/css/main.ac4cafd9.chunk.css.map",
+    "static/css/main.3ed6d5dd.chunk.css.map": "/Yulia2021-dev/-training--repository/static/css/main.3ed6d5dd.chunk.css.map",
     "static/js/2.71c004fd.chunk.js.LICENSE.txt": "/Yulia2021-dev/-training--repository/static/js/2.71c004fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e437d5d4.js",
     "static/js/2.71c004fd.chunk.js",
-    "static/css/main.ac4cafd9.chunk.css",
+    "static/css/main.3ed6d5dd.chunk.css",
     "static/js/main.2506cf01.chunk.js"
   ]
 }
