@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import FeedbackOptions from "./components/feedbackOptions/FeedbackOptions.jsx";
 import Statistics from "./components/statistics/Statistics.jsx";
-// import Clock from "./components/clock/Clock";
 
 import "./App.css";
 
