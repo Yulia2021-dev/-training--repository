@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-feedback",
+  "name": "goit-react-hw-04-hooks-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yulia2021-dev.github.io/goit-react-hw-02-feedback",
+  "homepage": "https://Yulia2021-dev/goit-react-hw-04-hooks-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -40,12 +40,12 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "gh-pages": "^3.2.3",
+    "eslint": "7.11.0",
+    "gh-pages": "3.2.3",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1",
-    "prop-types": "^15.7.2"
+    "prettier": "2.5.0",
+    "prop-types": "15.7.2"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
