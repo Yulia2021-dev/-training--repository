@@ -12,7 +12,6 @@
   border-radius: 5px;
   padding: 5px;
   box-shadow: 3px 3px 3px #464646;
-  cursor: pointer;
 }
 .button:active {
   box-shadow: none;
