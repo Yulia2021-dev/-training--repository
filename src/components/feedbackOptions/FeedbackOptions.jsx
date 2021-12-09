@@ -3,16 +3,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Section from '../section/Section'
 
-import s from './feedbackOptions.css';
+import  './feedbackOptions.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <Section title="Please leave feedback" className="title">
-      <div className={s.buttons}>
+      <div className="buttons">
         {
           options.map((option, i) => (
             <button key={i}
-              className={s.button}
+              className="button"
               type="button"
               onClick={() => onLeaveFeedback(option)}>
               {option}

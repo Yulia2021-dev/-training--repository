@@ -11,7 +11,7 @@ function Statistics({ good, neutral, bad, total, positivePercentage }) {
       {!total
         ? <Notification message="No feedback given" />
         : (
-          <div className={s.Statistics}>
+          <div className={s.statistics}>
           <ul className="param-list">
             <li className="Statistics__item">
               Good: {good}

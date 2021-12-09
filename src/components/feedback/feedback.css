@@ -1,13 +1,21 @@
-.btnStyle {
-  padding: 5px;
-  background-color: rgb(49, 243, 58);
-  margin-right: 10px;
-  border-radius: 5px;
-  border: none;
-  outline: springgreen;
-  cursor: pointer;
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.title {
-  font-weight: bold;
+.button {
+  min-width: 80px;
+  min-height: 30px;
+  color: rgb(4, 0, 37);
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px #464646;
+}
+.button:active {
+  box-shadow: none;
+}
+.button:not(:last-child) {
+  margin-right: 10px;
 }
