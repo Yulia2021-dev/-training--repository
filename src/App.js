@@ -24,6 +24,7 @@ class App extends Component {
   }
 
   render() {
+    const { good, neutral, bad } = this.state;
     const total = Object.values(this.state).reduce((a, b) => a + b);
     let expr = this.state.good / total;
     if (isNaN(expr)) {
@@ -37,9 +38,9 @@ class App extends Component {
           onLeaveFeedback={this.incrementOption}
         />
         <Statistics
-          good={this.state.good}
-          neutral={this.state.neutral}
-          bad={this.state.bad}
+          good={good}
+          neutral={neutral}
+          bad={bad}
           total={total}
           positivePercentage={positivePercentage}
         />
